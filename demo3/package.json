@@ -1,0 +1,24 @@
+{
+  "name": "spm",
+  "description": "",
+  "version": "0.0.1",
+  "private": false,
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "shelljs": "latest",
+    "underscore": "latest"
+  },
+  "devDependencies": {},
+  "spm": {
+    "dependencies": {
+      "seajs": "2.3.0",
+      "jquery": "2.1.1",
+      "ajs-dialog": "1.0.0",
+      "md5": "2.0.0"
+    },
+	"spm_modules": "/xampp/htdocs/seajs/demo3/spm_modules"
+  }
+}

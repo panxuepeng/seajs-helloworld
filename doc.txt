@@ -1,0 +1,17 @@
+node 安装
+spm 安装
+
+
+demo1:
+spm install
+spm build
+
+demo2:
+--dest ../../../dist
+index.html 运行
+require
+
+demo3:
+工具编译
+debug
+

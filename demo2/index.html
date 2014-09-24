@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title>demo2</title>
+</head>
+<body>
+<script src="/seajs/demo2/dist/seajs/2.3.0/sea.js"></script>
+<script>
+
+seajs.config({
+	base: "/seajs/demo2/dist",
+	alias: {
+		"jquery": "jquery/2.1.1/jquery"
+		, "hello": "hello/1.0.0/index"
+	}
+})
+
+seajs.use("hello", function(hello){
+	hello.world()
+	hello.user.username()
+})
+
+</script>
+
+</body>
+</html>

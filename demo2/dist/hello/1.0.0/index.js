@@ -1,0 +1,1 @@
+define("hello/1.0.0/index",["jquery"],function(e,n){n.user=e("hello/1.0.0/user"),n.world=function(){alert("hello world!")}}),define("hello/1.0.0/user",["jquery"],function(e,n){$=e("jquery"),n.username=function(){$("body").append("<p>username</p>")}});

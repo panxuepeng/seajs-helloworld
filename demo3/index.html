@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title>demo3</title>
+</head>
+<body>
+<script src="/seajs/demo3/dist/seajs/2.3.0/sea.js"></script>
+<script src="/seajs/demo3/dist/seajs/seajs-style/1.1.0/seajs-style.js"></script>
+<script>
+
+seajs.config({
+	base: "/seajs/demo3/dist",
+	alias: {
+		"jquery": "jquery/2.1.1/jquery"
+		, "hello": "hello/1.0.0/index"
+		, "seajs-debug": "seajs/seajs-debug/1.1.1/seajs-debug"
+	}
+})
+
+seajs.use(["seajs-debug"])
+
+seajs.use("hello", function(hello){hello.world()})
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+define("hello/1.0.0/index",[],function(e,l,o){var n;n={world:function(){alert("hello world!")}},o.exports=n});
